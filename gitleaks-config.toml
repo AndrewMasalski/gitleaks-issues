@@ -11,10 +11,10 @@ title = "gitleaks config"
 # global allowed
 [allowlist]
     files = [
-        '''(.*?)(jpg|gif|doc|pdf|bin|svg|socket|toml)$''',
-#        '''gitleaks-config.toml''',
+        '''(.*?)(jpg|gif|doc|pdf|bin|svg|socket)$''',
+        '''gitleaks-config.toml''',
 #        '''readme.md'''
     ]
-    regexes = [
+    paths = [
         '''src\/readme\.md$'''
     ]
