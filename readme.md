@@ -40,6 +40,5 @@ totalCommits:  1
 DEBU[2020-11-30T12:51:06+01:00] --------------------------                   
 DEBU[2020-11-30T12:51:06+01:00] | Individual Regexes Times |                 
 DEBU[2020-11-30T12:51:06+01:00] --------------------------                   
------BEGIN RSA PRIVATE KEY-----......185 microseconds
 WARN[2020-11-30T12:51:06+01:00] 1 leaks detected. 1 commits scanned in 0 seconds 
 ```
