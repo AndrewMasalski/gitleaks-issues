@@ -3,11 +3,10 @@ title = "gitleaks config"
     description = "RSA"
     regex = '''-----BEGIN RSA PRIVATE KEY-----'''
     [allowedlist]
-    files = [
-    ]
-    paths = [
-        '''src\/readme.md'''
-    ]
+        files = []
+        paths = [
+            '''src/readme.md'''
+        ]
 
 # global allowed
 [allowlist]
@@ -17,5 +16,5 @@ title = "gitleaks config"
 #        '''readme.md'''
     ]
     paths = [
-            '''src\/readme\.md$'''
+        '''src\/readme\.md$'''
     ]
