@@ -4,18 +4,18 @@ title = "gitleaks config"
     regex = '''-----BEGIN RSA PRIVATE KEY-----'''
     [allowedlist]
     files = [
-        # '''readme.md'''
     ]
     paths = [
-        '''src/readme.md'''
+        '''src\/readme.md'''
     ]
 
 # global allowed
 [allowlist]
-files = [
-    '''(.*?)(jpg|gif|doc|pdf|bin|svg|socket)$''',
-    '''gitleaks-config.toml'''
-]
-paths = [
-    #        '''src\/readme.md'''
-]
+    files = [
+        '''(.*?)(jpg|gif|doc|pdf|bin|svg|socket)$''',
+        '''gitleaks-config\.toml$''',
+#        '''readme.md'''
+    ]
+    paths = [
+            '''src\/readme\.md$'''
+    ]
